@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Videos:</h1>
+    <div id="video1"></div>
+    <div id="video2"></div>
+    <script>
+        window.onload = () => {
+            const test = [
+                ['video1', 'http://kattana.trade/media/main02big.mp4'],
+                ['video2', 'http://kattana.trade/media/video-positions.mp4']
+            ];
+            videoSequence(test);
+        };
+    </script>
+</body>
+</html>
